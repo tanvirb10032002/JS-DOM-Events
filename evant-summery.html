@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS DOM Event Summary</title>
+</head>
+<body>
+    <h1>Update Inpute</h1><br>
+    <h2 id="hande-status">defolt text</h2>
+    <button onclick="handelOnClick()">Handle Event by onclick function</button>
+    <button id="event-lisanner">Handle Event by addEventListener</button>
+    <script>
+        function handelOnClick(){
+            const hande = document.getElementById('hande-status');
+            hande.innerText = 'tanvir'
+        }
+    </script>
+    
+</body>
+</html>
